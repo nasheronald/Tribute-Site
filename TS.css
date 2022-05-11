@@ -1,0 +1,318 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(235, 121, 33);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+  
+#navbar  li {
+    float: right;
+    border-right: 1px solid white;
+  }
+
+#navbar li:hover {
+    color: white;
+}
+  
+#navbar  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: white;
+  }
+
+#navbar select {
+    display: none;
+}
+#select{
+    margin-bottom:10px;
+    background-color: rgb(235, 121, 33);
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 7px 0 7px 0;
+}
+
+#title{
+    border-bottom: solid 1px rgb(235, 121, 33);
+    
+}
+h4{
+    font-size: .65rem;
+   
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgb(235, 121, 33);
+    padding-top: 45px;
+    width: 110%;
+  }
+  
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image{
+    max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption{
+    text-align: justify;
+    font-size: .75rem;
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    max-width: 950px;
+    margin: auto;
+    border-radius: 25px;
+    padding-right: 20px;
+}
+
+#headline{
+    color: rgb(235, 121, 33);
+    border-bottom: solid 1px rgb(235, 121, 33);
+    
+}
+
+#tribute-info ul li .year{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(235, 121, 33);
+    padding-right: 10px ;
+    line-height: 5px;
+
+   
+}
+
+#tribute-info ul li .yearp{
+    justify-content: center;
+    color: white;
+    text-align: left;
+    font-size: .7rem;
+    border-bottom: solid 1px rgb(235, 121, 33);
+   padding-top: .5px;
+   padding-bottom: 8px;
+   
+}
+
+#quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;  
+    font-size: .75rem;
+   
+}
+
+#link{
+    color: rgb(235, 121, 33);
+    font-size: .65rem;
+    font-weight: 100;
+    margin: auto;
+    text-align: center;
+}
+
+#footer{
+    background-color: rgb(235, 121, 33);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    text-align: center;
+    position: relative;
+    margin: 25px 0 25px 0;
+    height: 250px;
+   
+   
+}
+
+.firstcol{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: small;
+    color: black;
+    border-right: 2.5px solid white;
+    width: 25%;
+    height: 150px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.firstcolp{
+    line-height: 10px;
+    font-size: .65rem;
+    padding-top: 0;
+    height: 50px;
+    
+}
+
+.seccol{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-right: 2px solid white;
+    width: 25%;
+    height: 150px;
+    padding-right: 10px;
+    margin-top: 20px;
+   
+}
+.seccolul{
+    line-height: 15px;
+    font-size: .65rem;
+}
+
+.thirdcol{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 25%;
+    height: 150px;
+    margin-top: 20px;
+}
+.thirdcolul{
+    line-height: 15px;
+    font-size: .65rem;
+    
+}
+#rights{
+    font-size: .65rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color: white;
+    margin-bottom : 10px;
+}
+
+@media (min-width: 460px) {
+    #title {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+
+  @media (min-width:  460px) {
+    .titlep {
+      font-size: 1.5rem;
+      line-height: .5;
+      margin-top: 10px;
+    }
+  }
+
+  @media (min-width:  460px) {
+    #img-caption {
+      font-size: 1rem;
+     
+    }
+  }
+
+  @media (min-width:  460px) {
+    #headline {
+      font-size: 1.5rem;
+     
+    }
+  }
+
+  @media (min-width:  460px) {
+    .year {
+      font-size: 1.4rem;
+     
+    }
+  }
+
+  @media (min-width:  460px) {
+    #tribute-info ul li .yearp {
+      font-size: .95rem;
+     margin-top: 20px;
+    }
+  }
+
+  @media (min-width:  460px) {
+    #quote {
+      font-size: 1.1rem;
+    
+    }
+  }
+
+  @media (min-width:  460px) {
+    #link {
+      font-size: 1rem;
+     
+    }
+  }
+
+  @media (min-width:  460px) {
+    h4 {
+      font-size: .75rem;
+      
+     
+    }
+  }
+  @media (min-width:  460px) {
+    .firstcolp {
+      font-size: .7rem;
+      line-height: 1.6;
+     
+    }
+  }
+
+  @media (min-width:  460px) {
+    .seccolul {
+      font-size: .7rem;
+      line-height: 1.6;
+     
+    }
+  }
+
+  @media (min-width:  460px) {
+    .thirdcolul {
+      font-size: .7rem;
+      line-height: 1.6;
+     
+    }
+  }
+  @media (max-width:  460px) {
+      #navbar ul { display: none; }
+    #navbar select  { display: inline-block; }
+  }
+
